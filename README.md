@@ -19,7 +19,7 @@
 
 ## About me
 
-I'm Darleen, an E-Commerce student at the Technical University of Applied Sciences Würzburg-Schweinfurt (THWS). In my free time I turn everyday problems into small, carefully designed apps, mostly for macOS and mobile. I also work as a math tutor, which taught me to explain things clearly.
+I'm Darleen, an E-Commerce student at the Technical University of Applied Sciences Würzburg-Schweinfurt (THWS). In my free time I turn everyday problems into small, carefully designed apps, mostly for macOS and mobile.
 
 ## Currently working on
 
