@@ -27,13 +27,13 @@ I'm Darleen, an E-Commerce student at the Technical University of Applied Scienc
 
 ## Projects
 
-| Project | What it is | Built with |
-| --- | --- | --- |
-| [Nachhilfe-Planer](https://github.com/darleenfritz/nachhilfe-planer) | Organizer for my tutoring: students, schedule, holidays, invoices | Electron, JavaScript |
-| [Recipe Collector](https://github.com/darleenfritz/recipe-collector) | Recipe app with an AI assistant that reads photos and understands speech | React Native, Expo, Firebase, OpenAI |
-| [FritzAbo](https://github.com/darleenfritz/fritzabo) | Web app to manage subscriptions | Laravel, PHP, MySQL |
-| [Simple Shop](https://github.com/darleenfritz/simpleshop) | REST backend for an online shop with JWT login | Django, Django REST Framework |
-| [Desktop Cats](https://github.com/darleenfritz/desktop-cats) | My two cats as animated companions on the desktop | Electron, JavaScript |
+<p>
+  <a href="https://github.com/darleenfritz/nachhilfe-planer"><img src="assets/projects/nachhilfe-planer.svg" alt="Nachhilfe-Planer: organizer for my math tutoring" width="49%"></a>
+  <a href="https://github.com/darleenfritz/recipe-collector"><img src="assets/projects/recipe-collector.svg" alt="Recipe Collector: recipe app with an AI assistant" width="49%"></a>
+  <a href="https://github.com/darleenfritz/fritzabo"><img src="assets/projects/fritzabo.svg" alt="FritzAbo: web app to keep track of subscriptions" width="49%"></a>
+  <a href="https://github.com/darleenfritz/simpleshop"><img src="assets/projects/simpleshop.svg" alt="Simple Shop: REST backend for an online shop" width="49%"></a>
+  <a href="https://github.com/darleenfritz/desktop-cats"><img src="assets/projects/desktop-cats.svg" alt="Desktop Cats: my two cats as animated desktop companions" width="49%"></a>
+</p>
 
 ## Stats
 
