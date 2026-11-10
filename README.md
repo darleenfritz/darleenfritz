@@ -30,7 +30,11 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/darleenfritz/nachhilfe-planer">Nachhilfe-Planer</a> · <a href="https://github.com/darleenfritz/recipe-collector">Recipe Collector</a> · <a href="https://github.com/darleenfritz/fritzabo">FritzAbo</a> · <a href="https://github.com/darleenfritz/simpleshop">Simple Shop</a> · <a href="https://github.com/darleenfritz/desktop-cats">Desktop Cats</a>
+  <a href="https://github.com/darleenfritz/nachhilfe-planer"><img src="assets/links/nachhilfe-planer.svg" alt="Nachhilfe-Planer" height="36"></a>
+  <a href="https://github.com/darleenfritz/recipe-collector"><img src="assets/links/recipe-collector.svg" alt="Recipe Collector" height="36"></a>
+  <a href="https://github.com/darleenfritz/fritzabo"><img src="assets/links/fritzabo.svg" alt="FritzAbo" height="36"></a>
+  <a href="https://github.com/darleenfritz/simpleshop"><img src="assets/links/simpleshop.svg" alt="Simple Shop" height="36"></a>
+  <a href="https://github.com/darleenfritz/desktop-cats"><img src="assets/links/desktop-cats.svg" alt="Desktop Cats" height="36"></a>
 </p>
 <!-- PROJECTS:END -->
 
@@ -43,4 +47,6 @@
 
 <img src="assets/sections/connect.svg" alt="Let's connect" width="100%">
 
-<a href="https://www.linkedin.com/in/darleen-fritz"><img src="https://img.shields.io/badge/LinkedIn-FBEAF0?style=for-the-badge&logo=linkedin&logoColor=72243E" alt="LinkedIn"></a>
+<p align="center">
+  <a href="https://www.linkedin.com/in/darleen-fritz"><img src="assets/links/linkedin.svg" alt="LinkedIn" height="36"></a>
+</p>

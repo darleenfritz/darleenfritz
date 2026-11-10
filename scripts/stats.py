@@ -238,10 +238,32 @@ def bracelet(projects):
     )
 
 
+def pill(label, color):
+    width = round(len(label) * 8.6 + 58)
+    return (
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="36" viewBox="0 0 {width} 36" role="img" aria-label="{escape(label)}">'
+        f'<rect x="0.5" y="0.5" width="{width - 1}" height="35" rx="17.5" fill="{BG}" stroke="{BORDER}"/>'
+        f'<circle cx="20" cy="18" r="6" fill="{color}" stroke="{GOLD}" stroke-width="1.5"/>'
+        f'<text x="34" y="23" font-family="{FONT}" font-size="15" fill="{TITLE}">{escape(label)}</text>'
+        f'<path d="M{width - 20} 13 l5 5 l-5 5" fill="none" stroke="{ACCENT}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>'
+        "</svg>\n"
+    )
+
+
+def write_pills(projects):
+    folder = OUT / "links"
+    folder.mkdir(exist_ok=True)
+    for i, p in enumerate(projects):
+        (folder / f"{p['slug']}.svg").write_text(pill(p["title"], CHARMS[i % len(CHARMS)]), encoding="utf-8")
+
+
 def projects_markdown(projects):
     if not projects:
         return "<!-- PROJECTS:START -->\n<!-- PROJECTS:END -->"
-    links = " · ".join(f'<a href="{p["url"]}">{escape(p["title"])}</a>' for p in projects)
+    links = "\n  ".join(
+        f'<a href="{p["url"]}"><img src="assets/links/{p["slug"]}.svg" alt="{escape(p["title"])}" height="36"></a>'
+        for p in projects
+    )
     return (
         "<!-- PROJECTS:START -->\n"
         '<p align="center">\n'
@@ -268,6 +290,7 @@ def main():
     (OUT / "languages.svg").write_text(languages_card(repos), encoding="utf-8")
     if projects:
         (OUT / "projects.svg").write_text(bracelet(projects), encoding="utf-8")
+        write_pills(projects)
         update_readme(projects)
     print(f"{len(repos)} repositories, {len(projects)} portfolio projects")
 
