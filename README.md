@@ -17,15 +17,12 @@
   <img src="https://img.shields.io/badge/Firebase-D4537E?style=flat-square&logo=firebase&logoColor=white" alt="Firebase">
 </p>
 
-## About me
+<p align="center">
+  <img src="assets/sections/about.svg" alt="About me: E-Commerce student at THWS in Würzburg. In my free time I turn everyday problems into small, carefully designed apps, mostly for macOS and mobile." width="49%">
+  <img src="assets/sections/working.svg" alt="Currently working on My Monthly Muse, a Mac app that replaces my monthly notes with a freely arrangeable mood board." width="49%">
+</p>
 
-I'm Darleen, an E-Commerce student at the Technical University of Applied Sciences Würzburg-Schweinfurt (THWS). In my free time I turn everyday problems into small, carefully designed apps, mostly for macOS and mobile.
-
-## Currently working on
-
-**My Monthly Muse**, a Mac app that replaces my monthly notes with a freely arrangeable mood board: to-dos, habits, goals, weather, a cycle tracker and a new look every month.
-
-## Projects
+<img src="assets/sections/projects.svg" alt="Projects" width="100%">
 
 <!-- PROJECTS:START -->
 <p align="center">
@@ -37,13 +34,13 @@ I'm Darleen, an E-Commerce student at the Technical University of Applied Scienc
 </p>
 <!-- PROJECTS:END -->
 
-## Stats
+<img src="assets/sections/stats.svg" alt="Stats" width="100%">
 
 <p align="center">
   <img src="assets/stats.svg" alt="GitHub stats" width="49%">
   <img src="assets/languages.svg" alt="Top languages" width="49%">
 </p>
 
-## Let's connect
+<img src="assets/sections/connect.svg" alt="Let's connect" width="100%">
 
 <a href="https://www.linkedin.com/in/darleen-fritz"><img src="https://img.shields.io/badge/LinkedIn-FBEAF0?style=for-the-badge&logo=linkedin&logoColor=72243E" alt="LinkedIn"></a>
