@@ -1,4 +1,4 @@
-name: Update stats
+name: Update profile
 
 on:
   schedule:
@@ -9,6 +9,7 @@ on:
     paths:
       - scripts/stats.py
       - .github/workflows/stats.yml
+      - projects.json
 
 permissions:
   contents: write
@@ -28,5 +29,5 @@ jobs:
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add assets/stats.svg assets/languages.svg
-          git diff --cached --quiet || (git commit -m "Update stats" && git push)
+          git add README.md assets/stats.svg assets/languages.svg assets/projects.svg
+          git diff --cached --quiet || (git commit -m "Update profile" && git push)

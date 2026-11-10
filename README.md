@@ -27,13 +27,15 @@ I'm Darleen, an E-Commerce student at the Technical University of Applied Scienc
 
 ## Projects
 
-<p>
-  <a href="https://github.com/darleenfritz/nachhilfe-planer"><img src="assets/projects/nachhilfe-planer.svg" alt="Nachhilfe-Planer: organizer for my math tutoring" width="49%"></a>
-  <a href="https://github.com/darleenfritz/recipe-collector"><img src="assets/projects/recipe-collector.svg" alt="Recipe Collector: recipe app with an AI assistant" width="49%"></a>
-  <a href="https://github.com/darleenfritz/fritzabo"><img src="assets/projects/fritzabo.svg" alt="FritzAbo: web app to keep track of subscriptions" width="49%"></a>
-  <a href="https://github.com/darleenfritz/simpleshop"><img src="assets/projects/simpleshop.svg" alt="Simple Shop: REST backend for an online shop" width="49%"></a>
-  <a href="https://github.com/darleenfritz/desktop-cats"><img src="assets/projects/desktop-cats.svg" alt="Desktop Cats: my two cats as animated desktop companions" width="49%"></a>
+<!-- PROJECTS:START -->
+<p align="center">
+  <img src="assets/projects.svg" alt="My projects as a rotating charm bracelet" width="100%">
 </p>
+
+<p align="center">
+  <a href="https://github.com/darleenfritz/nachhilfe-planer">Nachhilfe-Planer</a> · <a href="https://github.com/darleenfritz/recipe-collector">Recipe Collector</a> · <a href="https://github.com/darleenfritz/fritzabo">FritzAbo</a> · <a href="https://github.com/darleenfritz/simpleshop">Simple Shop</a> · <a href="https://github.com/darleenfritz/desktop-cats">Desktop Cats</a>
+</p>
+<!-- PROJECTS:END -->
 
 ## Stats
 

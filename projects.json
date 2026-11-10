@@ -1,0 +1,10 @@
+{
+  "names": {
+    "nachhilfe-planer": "Nachhilfe-Planer",
+    "recipe-collector": "Recipe Collector",
+    "fritzabo": "FritzAbo",
+    "simpleshop": "Simple Shop",
+    "desktop-cats": "Desktop Cats"
+  },
+  "order": ["nachhilfe-planer", "recipe-collector", "fritzabo", "simpleshop", "desktop-cats"]
+}
